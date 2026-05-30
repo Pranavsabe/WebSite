@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Pranav Sabe — Java Full Stack Developer</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+
+<div id="cur"></div>
+<div id="cur2"></div>
+<canvas id="bg-canvas"></canvas>
+
+
+<nav>
+  <div class="logo">&lt;<span>PS</span> /&gt;</div>
+  <ul class="nav-links">
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#certs">Certs</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="mailto:pranavsabe01@gmail.com" class="nav-cta">Hire Me</a>
+</nav>
+
+
+<section id="hero">
+  <div class="hero-left">
+    <div class="hero-tag">Available for opportunities</div>
+    <h1 class="hero-name">
+      <span class="first">Pranav</span><br/>
+      <span class="last">Sabe</span>
+    </h1>
+    <div class="hero-role" id="typewriter"></div>
+    <p class="hero-bio">
+      Java Full Stack Developer with hands-on experience in Spring Boot, React.js, and MySQL. 
+      Solved 250+ DSA problems, secured 5th rank in hackathon, and completed 5+ internships.
+      Passionate about building clean, scalable applications.
+    </p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn-prim">View Projects</a>
+      <a href="#contact" class="btn-sec">Get In Touch</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-item"><div class="stat-n" data-target="250">0</div><div class="stat-l">LeetCode</div></div>
+      <div class="stat-item"><div class="stat-n" data-target="5">0</div><div class="stat-l">Internships</div></div>
+      <div class="stat-item"><div class="stat-n" data-target="7">0</div><div class="stat-l">Certs</div></div>
+      <div class="stat-item"><div class="stat-n" data-target="3">0</div><div class="stat-l">Projects</div></div>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="photo-wrap">
+      <div class="photo-glow"></div>
+      <div class="photo-frame">
+        <img 
+  src="./pranavmain.jpeg"
+  id="photo-img"
+  alt="Pranav Sabe"
+/>
+      </div>
+      <div class="float-badge badge1">☕ Java Dev</div>
+      <div class="float-badge badge2">✅ 250+ LeetCode</div>
+      <div class="float-badge badge3">🚀 Full Stack</div>
+    </div>
+  </div>
+</section>
+
+
+<section id="skills">
+  <div class="section-wrap">
+    <div class="sec-label"> Technical Skills</div>
+    <h2 class="sec-title">My <span>Tech Stack</span></h2>
+    <p class="sec-sub">A curated set of tools and technologies I use to build reliable, scalable software.</p>
+    <div class="skills-grid">
+      <div class="skill-cat">
+        <div class="skill-cat-title">Languages</div>
+        <div class="skill-tags">
+          <span class="stag">Java ⭐</span>
+          <span class="stag">C</span>
+          <span class="stag">C++</span>
+        </div>
+      </div>
+      <div class="skill-cat">
+        <div class="skill-cat-title">Frameworks</div>
+        <div class="skill-tags">
+          <span class="stag green">Spring Boot</span>
+          <span class="stag green">Hibernate</span>
+          <span class="stag green">JDBC</span>
+          <span class="stag green">RESTful APIs</span>
+        </div>
+      </div>
+      <div class="skill-cat">
+        <div class="skill-cat-title">Frontend</div>
+        <div class="skill-tags">
+          <span class="stag cyan">React.js</span>
+          <span class="stag cyan">HTML</span>
+          <span class="stag cyan">CSS</span>
+          <span class="stag cyan">JavaScript</span>
+          <span class="stag cyan">Bootstrap</span>
+          <span class="stag cyan">Node.js</span>
+        </div>
+      </div>
+      <div class="skill-cat">
+        <div class="skill-cat-title">Databases</div>
+        <div class="skill-tags">
+          <span class="stag amber">MySQL</span>
+          <span class="stag amber">Oracle SQL</span>
+        </div>
+      </div>
+      <div class="skill-cat">
+        <div class="skill-cat-title">Tools & Platforms</div>
+        <div class="skill-tags">
+          <span class="stag">Git</span>
+          <span class="stag">GitHub</span>
+          <span class="stag">VS Code</span>
+          <span class="stag">Eclipse</span>
+          <span class="stag">Wix Studio</span>
+        </div>
+      </div>
+      <div class="skill-cat">
+        <div class="skill-cat-title">Core Concepts</div>
+        <div class="skill-tags">
+          <span class="stag green">OOP</span>
+          <span class="stag green">DSA</span>
+          <span class="stag green">SDLC</span>
+          <span class="stag green">Client-Server</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="projects">
+  <div class="section-wrap">
+    <div class="sec-label"> Projects</div>
+    <h2 class="sec-title">What I've <span>Built</span></h2>
+    <p class="sec-sub">A selection of projects that showcase my problem-solving and development skills.</p>
+    <div class="proj-grid">
+      <div class="proj-card">
+        <span class="proj-num">01</span>
+        <div class="proj-icon">💰</div>
+        <div class="proj-title">Student Expense Tracker</div>
+        <div class="proj-stack">Java · JSP · Servlets · MySQL</div>
+        <div class="proj-desc">Full-stack web application to track and manage daily expenses with secure user authentication. Implemented optimized CRUD operations and efficient SQL queries for reliable data handling and reporting.</div>
+        <div class="proj-line"></div>
+      </div>
+      <div class="proj-card">
+        <span class="proj-num">02</span>
+        <div class="proj-icon">💬</div>
+        <div class="proj-title">Chat Application</div>
+        <div class="proj-stack">Java · Swing · Socket Programming</div>
+        <div class="proj-desc">Real-time chat application using Java Swing and socket programming with client-server architecture. Enables seamless message exchange between multiple concurrent users.</div>
+        <div class="proj-line"></div>
+      </div>
+      <div class="proj-card">
+        <span class="proj-num">03</span>
+        <div class="proj-icon">📚</div>
+        <div class="proj-title">Book Recommendation System</div>
+        <div class="proj-stack">Java · API Integration</div>
+        <div class="proj-desc">Smart book recommendation system using third-party API integration based on user preferences. Implemented efficient data handling and filtering logic for accurate, personalized suggestions.</div>        <div class="proj-line"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="experience">
+  <div class="section-wrap">
+    <div class="sec-label"> Experience</div>
+    <h2 class="sec-title">Work <span>Experience</span></h2>
+    <p class="sec-sub">Hands-on internship experience building real applications.</p>
+    <div class="timeline">
+      <div class="titem">
+        <div class="tdot">☕</div>
+        <div class="tcontent">
+          <div class="trole">Java Developer Intern</div>
+          <div class="tcompany">CodeClause · Remote</div>
+          <div class="tdate">2023</div>
+          <ul class="tpoints">
+            <li>Developed and tested Java-based applications focusing on clean code and modular design</li>
+            <li>Improved application performance by 21% through debugging and optimization</li>
+          </ul>
+        </div>
+      </div>
+      <div class="titem">
+        <div class="tdot">🎨</div>
+        <div class="tcontent">
+          <div class="trole">Frontend Developer Intern</div>
+          <div class="tcompany">Cognifyz Technologies · Remote</div>
+          <div class="tdate">2023</div>
+          <ul class="tpoints">
+            <li>Designed and developed responsive web pages using HTML, CSS, JavaScript, and Bootstrap</li>
+            <li>Ensured cross-browser and multi-device compatibility for improved user experience</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="certs">
+  <div class="section-wrap">
+    <div class="sec-label"> Certifications</div>
+    <h2 class="sec-title">Certified <span>Skills</span></h2>
+    <p class="sec-sub">Industry-recognized certifications that validate my technical expertise.</p>
+    <div class="certs-grid">
+      <div class="cert-chip"><span>🏆</span> Java Full Stack — QSpiders</div>
+      <div class="cert-chip"><span>⭐</span> HackerRank Java 4-Star</div>
+      <div class="cert-chip"><span>🗄️</span> SQL Bootcamp</div>
+      <div class="cert-chip"><span>🟢</span> Node.js Bootcamp</div>
+      <div class="cert-chip"><span>☁️</span> Cloud Bootcamp — Google</div>
+    </div>
+  </div>
+</section>
+
+
+<section id="achievements">
+  <div class="section-wrap">
+    <div class="sec-label"> Achievements</div>
+    <h2 class="sec-title">Leadership & <span>Wins</span></h2>
+    <div class="ach-grid">
+      <div class="ach-card"><div class="ach-icon">🏅</div><div class="ach-title">5th Rank — Hackathon</div><div class="ach-sub">TopBrains organized competition</div></div>
+      <div class="ach-card"><div class="ach-icon">💻</div><div class="ach-title">250+ LeetCode</div><div class="ach-sub">DSA problem solving streak</div></div>
+      <div class="ach-card"><div class="ach-icon">👑</div><div class="ach-title">Head of Tech Committee</div><div class="ach-sub">Departmental Forum — IT-PCE</div></div>
+      <div class="ach-card"><div class="ach-icon">🤝</div><div class="ach-title">Co-Incharge, NSS</div><div class="ach-sub">PCE Nagpur (2022–23)</div></div>
+      <div class="ach-card"><div class="ach-icon">🎓</div><div class="ach-title">96.33% in HSC</div><div class="ach-sub">Amravati University</div></div>
+      <div class="ach-card"><div class="ach-icon">🔧</div><div class="ach-title">5+ Internships</div><div class="ach-sub">Industry hands-on experience</div></div>
+    </div>
+  </div>
+</section>
+
+
+<section id="contact">
+  <div class="contact-inner">
+    <div class="sec-label" style="text-align:center;display:block;"> Contact</div>
+    <h2 class="sec-title">Let's <span>Connect</span></h2>
+    <p class="sec-sub">Open to full-time roles, internships, and interesting collaborations. Feel free to reach out!</p>
+    <div class="contact-links">
+      <a href="mailto:pranavsabe01@gmail.com" class="clink">📧 pranavsabe01@gmail.com</a>
+      <a href="tel:+917397954509" class="clink">📞 +91 7397954509</a>
+      <a href="https://linkedin.com/in/pranav-sabe-78044a259" target="_blank" class="clink">💼 LinkedIn</a>
+      <a href="https://github.com/Pranavsabe" target="_blank" class="clink">🐙 GitHub</a>
+      <a href="https://leetcode.com/u/Pranav_Sabe" target="_blank" class="clink">⚡ LeetCode</a>
+      <a href="https://pranavsabe01.wixstudio.com/pranavsabe" target="_blank" class="clink">🌐Old Portfolio</a>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <div class="footer-text">© 2025 <span>Pranav Sabe</span>. Designed & Developed with ❤️</div>
+  <div class="footer-text">B.Tech IT · PCE Nagpur · CGPA <span>7.63</span></div>
+</footer>
+
+
+<button id="scrolltop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+</body>
+</html>
